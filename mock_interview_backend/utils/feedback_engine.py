@@ -1,5 +1,12 @@
+import os
+from dotenv import load_dotenv
 import openai
-openai.api_key = "REMOVED"
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the OpenAI API key from the environment
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_feedback(transcript):
     prompt = f"""
