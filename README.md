@@ -60,29 +60,31 @@ InterviewEase/
 
 ##🔧 Installation & Setup
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/TEJASRI-44/InterviewEase.git
-cd InterviewEase
+     ```bash
+      Copy
+      Edit
+      git clone https://github.com/TEJASRI-44/InterviewEase.git
+      cd InterviewEase```
 2️⃣ Backend Setup (Spring Boot)
-bash
+```bash
 Copy
 Edit
 cd backend
 mvn clean install
 mvn spring-boot:run
+```
 3️⃣ AI Microservice Setup (Flask)
-bash
+```bash
 Copy
 Edit
 cd ai-service
 pip install -r requirements.txt
 python app.py
+```
 4️⃣ Frontend Setup (React.js)
-bash
+```bash
 Copy
 Edit
 cd frontend
 npm install
-npm start
+npm start```
