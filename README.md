@@ -1,4 +1,4 @@
-🎯 InterviewEase – AI-Enhanced Interview Management Platform
+##**🎯 InterviewEase – AI-Enhanced Interview Management Platform**
 InterviewEase is a full-stack interview management system designed to simplify the recruitment process. It provides live interview capabilities, AI-driven feedback, resume-based skill matching, and role-specific dashboards — all in a secure, scalable, and user-friendly environment.
 
 🚀 Features
@@ -28,7 +28,6 @@ Email notifications for scheduling updates and interview reminders.
 
 🛠️ Tech Stack
 Backend
-
 Java, Spring Boot (MVC, REST APIs)
 
 Spring Security
@@ -36,11 +35,9 @@ Spring Security
 Flask (AI microservice)
 
 Frontend
-
 React.js (Role-based UI)
 
 Other Tools
-
 Jitsi API for video conferencing
 
 MySQL (Database)
