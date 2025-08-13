@@ -1,63 +1,64 @@
-##**🎯 InterviewEase – AI-Enhanced Interview Management Platform**
-InterviewEase is a full-stack interview management system designed to simplify the recruitment process. It provides live interview capabilities, AI-driven feedback, resume-based skill matching, and role-specific dashboards — all in a secure, scalable, and user-friendly environment.
+## **🎯 InterviewEase – AI-Enhanced Interview Management Platform**
 
-🚀 Features
-🔹 Live Video Interviews
-Integrated Jitsi API for real-time video conferencing.
+InterviewEase is a **full-stack interview management system** designed to simplify the recruitment process.  
+It provides **live interview capabilities**, **AI-driven feedback**, **resume-based skill matching**, and **role-specific dashboards** — all in a **secure, scalable, and user-friendly environment**.
 
-Built-in recording for later review.
+---
 
-🔹 AI-Powered Evaluation
-Connected a Flask microservice to deliver AI-based feedback on interview performance.
+## 🚀 **Features**
 
-🔹 Smart Resume Matching
-Implemented auto-apply logic for internships by matching candidates' resumes with job requirements.
+### 🔹 **Live Video Interviews**
+- Integrated **Jitsi API** for real-time video conferencing.
+- Built-in **recording functionality** for later review.
 
-🔹 Secure User Management
-Developed Spring Boot REST APIs for authentication and authorization.
+### 🔹 **AI-Powered Evaluation**
+- Connected a **Flask microservice** to deliver **AI-based feedback** on interview performance.
 
-Spring Security integration for role-based access control.
+### 🔹 **Smart Resume Matching**
+- Implemented **auto-apply logic** for internships by matching candidate resumes with job requirements.
 
-🔹 Role-Based Dashboards
-Candidate Dashboard – Apply for opportunities, track applications, and attend interviews.
+### 🔹 **Secure User Management**
+- Developed **Spring Boot REST APIs** for authentication and authorization.
+- **Spring Security** integration for role-based access control.
 
-Interviewer Dashboard – Schedule, conduct, and review interviews.
+### 🔹 **Role-Based Dashboards**
+- **Candidate Dashboard** – Apply for opportunities, track applications, and attend interviews.
+- **Interviewer Dashboard** – Schedule, conduct, and review interviews.
 
-🔹 Notifications
-Email notifications for scheduling updates and interview reminders.
+### 🔹 **Notifications**
+- Email notifications for scheduling updates and interview reminders.
 
-🛠️ Tech Stack
-Backend
-Java, Spring Boot (MVC, REST APIs)
+---
 
-Spring Security
+## 🛠 **Tech Stack**
 
-Flask (AI microservice)
+**Backend**
+- Java, **Spring Boot** (MVC, REST APIs)
+- Spring Security
+- Flask (AI microservice)
 
-Frontend
-React.js (Role-based UI)
+**Frontend**
+- React.js (Role-based UI)
 
-Other Tools
-Jitsi API for video conferencing
+**Other Tools**
+- **Jitsi API** – Live video conferencing
+- **MySQL** – Database
+- **SMTP** – Email notifications
 
-MySQL (Database)
+---
 
-SMTP for email notifications
-
-📂 Project Structure
-bash
-Copy
-Edit
+## 📂 **Project Structure**
+```bash
 InterviewEase/
 │── backend/             # Spring Boot backend (Java)
 │── frontend/            # React.js frontend
 │── ai-service/          # Flask AI microservice
 │── docs/                # Documentation and diagrams
 └── README.md            # Project documentation
-📸 Screenshots (Optional)
-Add screenshots here showing the dashboard, live interview interface, and AI feedback.
+```
 
-🔧 Installation & Setup
+
+##🔧 Installation & Setup
 1️⃣ Clone the Repository
 bash
 Copy
